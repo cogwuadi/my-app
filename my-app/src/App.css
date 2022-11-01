@@ -1,0 +1,286 @@
+
+
+*{
+  margin: 0;
+  padding: 0;    
+  font-family: sans-serif !important;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+.head img{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50px;
+}
+.head h5{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+#icon img{
+  margin-left: 4rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+main{
+  text-align: center;
+  flex-wrap: wrap;
+}
+button{
+  padding: 1.5rem 25.8rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+#twitter{
+  padding: 1.5rem 25.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+#books_python, #books_design{
+  padding: 1.5rem 24.7rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+#pitch{
+  padding: 1.5rem 21rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.slack{
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.slack img{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+#zuri{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+#zuri img{
+  margin-left: 6rem;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  header{
+      display: flex;
+      justify-content: center;
+      margin-left: 8rem;
+  }
+  main{
+      display: flex;
+      max-width: auto;
+  }
+  #icon img{
+      background-image: url("./pic/Icon.png");
+      background-repeat: no-repeat;
+      margin-left: -8px;
+      margin-left: 4rem;
+      width: 2rem;
+      height: 2rem;
+  }
+  .slack{
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      margin-left: 23rem;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+  }
+  #zuri{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header{
+      display: flex;
+      justify-content: center;
+      margin-left: 18rem;
+  }
+}
+
+@media screen and (max-width: 500px) {   
+  #zuri{
+      display: block;
+      justify-content: center;
+      margin-bottom: 2rem;
+      margin-left: 12rem;
+      margin-top: 2rem;
+  }
+  #zuri img{
+      margin-left: 6rem;
+      margin-bottom: 2rem;
+     width: 19rem;
+     height: 5rem;
+  }
+  header{
+      display: flex;
+      justify-content: center;
+      margin-left: 30rem;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  header{
+      display: flex;
+      justify-content: center;
+      margin-left: 21rem;
+  }
+  main{
+      justify-content: center;
+      display: flex;
+      max-width: auto;
+  }
+  button{
+      padding: 1.5rem 25rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 25rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      width: auto;
+      display: block;
+  }
+  #twitter{
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 25rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      justify-content: center;
+  }
+  #books_python, #books_design{
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 25rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+  }
+  #pitch{
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 25rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+  }
+  #icon img{
+      background-image: url("./pic/Icon.png");
+      background-repeat: no-repeat;
+      margin-left: -8px;
+      margin-left: 4rem;
+      width: 2rem;
+      height: 2rem;
+  }
+  #zuri{
+      display: block;
+      justify-content: center;
+      margin-bottom: 2rem;
+      margin-left: 4rem;
+      margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  header{
+      display: flex;
+      justify-content: center;
+      margin-left: 14rem;
+  }
+  main{
+      justify-content: center;
+      display: flex;
+      max-width: auto;
+  }
+  button{
+      padding: 1.5rem 25rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 15rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      width: auto;
+      display: block;
+  }
+  #twitter{
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 15rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      text-align: center;
+  }
+  #books_python, #books_design{
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 15rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+  }
+  #pitch{
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      margin-left: 15rem;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+  }
+  .slack{
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      margin-left: 14rem;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+  }
+  #icon img{
+      background-image: url("./pic/Icon.png");
+      background-repeat: no-repeat;
+      margin-left: -8px;
+      margin-left: 4rem;
+      width: 2rem;
+      height: 2rem;
+  }
+  #zuri{
+      display: block;
+      justify-content: center;
+      margin-bottom: 2rem;
+      margin-left: -4rem;
+      margin-top: 2rem;
+  }
+}

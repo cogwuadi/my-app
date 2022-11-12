@@ -1,4 +1,4 @@
-// import Home from "../componenet/home/home";
+
 import {Route, Routes} from 'react-router-dom'
 import { Home } from './Home';
 
